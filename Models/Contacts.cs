@@ -7,7 +7,7 @@ namespace Contacts.Models
   {
     private string _name;
     private string _phone;
-    private string _address
+    private string _address;
     private int _id;
     private static List<Contact> _instances = new List<Contact>{};
 
@@ -15,7 +15,7 @@ namespace Contacts.Models
     {
       _name = name;
       _phone = phone;
-      _adress = address;
+      _address = address;
       _instances.Add(this);
       _id = _instances.Count;
     }
@@ -41,7 +41,7 @@ namespace Contacts.Models
     }
     public void SetAddress(string newAddress)
     {
-      _address = newAddress
+      _address = newAddress;
     }
     public int GetId()
     {
@@ -51,10 +51,6 @@ namespace Contacts.Models
     {
       return _instances;
     }
-    public void Save()
-    {
-      _instances.Add(this);
-    }
         public static void ClearAll()
     {
       _instances.Clear();
@@ -63,4 +59,5 @@ namespace Contacts.Models
     {
       return _instances[searchId-1];
     }
+  }
 }

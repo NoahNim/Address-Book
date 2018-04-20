@@ -1,0 +1,9 @@
+/Users/noahmedoff/Desktop/Address-Book/bin/Debug/netcoreapp1.1/address-book.deps.json
+/Users/noahmedoff/Desktop/Address-Book/bin/Debug/netcoreapp1.1/address-book.runtimeconfig.json
+/Users/noahmedoff/Desktop/Address-Book/bin/Debug/netcoreapp1.1/address-book.runtimeconfig.dev.json
+/Users/noahmedoff/Desktop/Address-Book/obj/Debug/netcoreapp1.1/address-book.csproj.CoreCompileInputs.cache
+/Users/noahmedoff/Desktop/Address-Book/obj/Debug/netcoreapp1.1/address-book.AssemblyInfo.cs
+/Users/noahmedoff/Desktop/Address-Book/bin/Debug/netcoreapp1.1/address-book.dll
+/Users/noahmedoff/Desktop/Address-Book/bin/Debug/netcoreapp1.1/address-book.pdb
+/Users/noahmedoff/Desktop/Address-Book/obj/Debug/netcoreapp1.1/address-book.dll
+/Users/noahmedoff/Desktop/Address-Book/obj/Debug/netcoreapp1.1/address-book.pdb

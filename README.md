@@ -10,7 +10,7 @@
 * .NET
 * C#
 ##### Known Bugs
-_So far there are no bugs_
+_No known bugs_
 
 #### Support and contact details
 _If you run into a problem, contact us at nmedoff123@gmail.com_

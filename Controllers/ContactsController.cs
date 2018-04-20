@@ -29,11 +29,10 @@ namespace Contacts.Controllers
         public ActionResult Create()
         {
           Contact newContact = new Contact (Request.Form["new-name"], Request.Form["new-phone"], Request.Form["new-address"]);
-          newContact.Save();
           List<Contact> allContacts = Contact.GetAll();
           return View("Index", allContacts);
         }
-        [HttpPost("/Contacts/delete")]
+        [HttpPost("/contacts/delete")]
         public ActionResult DeleteAll()
         {
             Contact.ClearAll();
